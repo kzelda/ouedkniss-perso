@@ -1,5 +1,5 @@
 <html>
-<h1>Ouedkniss.com personalisé !</h1>
+<h1>Ouedkniss.com personnalisé !</h1>
 
 <h3>Chnagements apportés au site</h3>
 <ul>
