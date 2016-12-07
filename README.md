@@ -2,8 +2,8 @@
 <h1>Ouedkniss.com personnalisé !</h1>
 <h4>Version : 0.1</h4>
 <p>
-Le but de ce projet est de personnaliser le site ouedkniss.com , les modifications rajoutées concernent le désign ainsi que le support Ajax.
-NB  :  nouvelles fonctionalités vont être rajoutées dans le future.
+Le but de ce projet est de personnaliser le site ouedkniss.com , les modifications rajoutées concernent le désign ainsi que le support Ajax.<br>
+<b>NB</b>  :  nouvelles fonctionalités vont être rajoutées dans le future.
 </p>
 <h3>Chnagements apportés au site</h3>
 <ul>
