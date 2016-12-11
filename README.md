@@ -8,7 +8,7 @@ Le but de ce projet est de personnaliser le site ouedkniss.com , les modificatio
 <h3>Chnagements apportés au site</h3>
 <ul>
   <li>Suppression des pubs</li>
-  <li>Auto-Charger les pages (Lazy-loading) <img alt="." src="https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/loader_2.gif"  /></li>
+  <li>Auto-Charger les pages (Lazy-l<img alt="o" src="https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/loader_2.gif"  />ading) <img alt="." src="https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/loader_3.gif"  /></li>
 </ul>
 
 <h3>Installation</h3>
