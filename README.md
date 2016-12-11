@@ -8,7 +8,7 @@ Le but de ce projet est de personnaliser le site ouedkniss.com , les modificatio
 <h3>Chnagements apportés au site</h3>
 <ul>
   <li>Suppression des pubs</li>
-  <li>Auto-Charger les pages (Lazy-loading)</li>
+  <li>Auto-Charger les pages (Lazy-loading) <img alt="." src="https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/loader.gif"  style="max-width: 24px !important;" /></li>
 </ul>
 
 <h3>Installation</h3>
@@ -17,8 +17,8 @@ Le but de ce projet est de personnaliser le site ouedkniss.com , les modificatio
   <li>
     Installer les deux scripts :
     <ul>
-      <li><a href="https://github.com/kzelda/ouedkniss-perso/raw/master/ouedkniss.css.user.js">ouedkniss-css</a></li>
-      <li><a href="https://github.com/kzelda/ouedkniss-perso/raw/master/ouedkniss.lazyloading.user.js">ouedkniss-lazyloading</a></li>
+      <li><a href="https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/ouedkniss.css.user.js">ouedkniss-css</a></li>
+      <li><a href="https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/ouedkniss.lazyloading.user.js">ouedkniss-lazyloading</a></li>
     </ul>
   </li>
 </ol>
