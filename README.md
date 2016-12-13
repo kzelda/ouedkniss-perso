@@ -4,7 +4,7 @@
 Le but de ce projet est de personnaliser le site ouedkniss.com , les modifications rajoutées concernent le désign ainsi que le support Ajax.<br>
 <b>NB</b>  :  nouvelles fonctionalités vont être rajoutées dans le future.
 </p>
-<h3>Chnagements apportés au site</h3>
+<h3>Changements apportés au site</h3>
 <ul>
   <li>Suppression des pubs</li>
   <li>Auto-Charger les pages (Lazy-l<img alt="o" src="https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/o.gif"  />ading) </li>
