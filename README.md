@@ -22,3 +22,15 @@ Le but de ce projet est de personnaliser le site ouedkniss.com , les modificatio
   </li>
 </ol>
 
+
+<hr>
+
+<h2>Quelques Screenshots : </h2>
+<h3>Auto-Chargement des pages (infinite scroll)</h3>
+<img alt="Autoloading" src="http://i.imgur.com/krZP7hy.png" />
+
+<h3>Barre de menu fixée</h3>
+<img alt="Autoloading" src="http://i.imgur.com/V8WuI7a.png" />
+
+
+
