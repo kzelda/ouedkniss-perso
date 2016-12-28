@@ -13,6 +13,7 @@ Le but de ce projet est de personnaliser le site ouedkniss.com , les modificatio
 <h3>Installation</h3>
 <ol>
 <li>Installer l'extension <a href="https://addons.mozilla.org/fr/firefox/addon/greasemonkey/" >Greasemonkey</a> (firefox) | <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=fr" >Tampermonkey</a> (chrome)</li>
+<li>Redémarrer Firefox/Chrome après avoir installé l'extension</li>
   <li>
     Installer les deux scripts :
     <ul>
