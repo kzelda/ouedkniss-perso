@@ -17,6 +17,8 @@ $(".bouton_details , .annonce_left a").attr("target","_blank");
 
 try{document.querySelector("#page_right").remove();}catch(e){}
 
+$("body").css("padding-top" , "46px");
+	
 $('#page_top').remove();
 //$('#page_annonces_top').remove();
 $('#page').css({
