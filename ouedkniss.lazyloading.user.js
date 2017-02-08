@@ -4,6 +4,7 @@
 // @description Lazy Loading Pager of ouedkniss.com
 // @include     http://www.ouedkniss.com/*
 // @include     https://www.ouedkniss.com/*
+// @updateURL https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/ouedkniss.lazyloading.user.js
 // @version     1
 // @grant       none
 // ==/UserScript==
@@ -42,8 +43,10 @@ var init_oued_pager = function () {
 
 		show_loader();
 		$.get($(this).attr("href") , function (data) {
+			var $data = $(data);
+			$data.find("script").remove();
 			$("#divPages").remove();
-			$("#resultat").append($(data).find("#resultat").html());
+			$("#resultat").append($data.find("#resultat").html());
 			remove_loader();
 			init_oued_pager();
 		});
