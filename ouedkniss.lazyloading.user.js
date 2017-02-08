@@ -5,7 +5,7 @@
 // @include     http://www.ouedkniss.com/*
 // @include     https://www.ouedkniss.com/*
 // @updateURL https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/ouedkniss.lazyloading.user.js
-// @version     1
+// @version     1.1
 // @grant       none
 // ==/UserScript==
 
