@@ -5,13 +5,14 @@
 // @include     http://www.ouedkniss.com/*
 // @include     https://www.ouedkniss.com/*
 // @updateURL https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/ouedkniss.lazyloading.user.js
-// @version     1.2
+// @version     1.0.0.1
 // @grant       none
 // ==/UserScript==
 
 //---------------- Pager Auto Suivant ----------------------------------
 (
-	function () {
+	function ($) {
+
 	var show_loader = function () {
 		console.log("Show_loader");
 		if ($("#img_loader").length == 0)
@@ -54,23 +55,27 @@
 
 	}
 
-	if (typeof(init_oued_pager_call) === "undefined") {
-		init_oued_pager_call = true;
-		init_oued_pager();
-	}
-
-	$(window).unbind("scroll");
-
-	$(window).scroll(function (a, b) {
-
-		var diff = Math.abs($("#divPages").offset().top - $(document).scrollTop());
-		if (diff < 1000) {
-			if (!isVisible_loader()) {
-				show_loader();
-				console.log("Suivant => " + Math.random());
-				$("a:contains(Suivant)").click();
-			}
+	setTimeout(function () {
+		console.log("ZZZ", Date.now());
+		if (typeof(init_oued_pager_call) === "undefined") {
+			init_oued_pager_call = true;
+			init_oued_pager();
 		}
-	});
 
-})();
+		$(window).unbind("scroll");
+
+		$(window).scroll(function (a, b) {
+			console.log("ZZZ scroling");
+			var diff = Math.abs($("#divPages").offset().top - $(document).scrollTop());
+			if (diff < 1000) {
+				if (!isVisible_loader()) {
+					show_loader();
+					console.log("Suivant => " + Math.random());
+					$("#divPages > a.page_arrow").click();
+				}
+			}
+		});
+
+	}, 1000);
+
+})(window.jQuery);
