@@ -13,6 +13,24 @@
 (
 	function ($) {
 
+	function debounce(func, wait, immediate) {
+		var timeout;
+		return function () {
+			var context = this,
+			args = arguments;
+			var later = function () {
+				timeout = null;
+				if (!immediate)
+					func.apply(context, args);
+			};
+			var callNow = immediate && !timeout;
+			clearTimeout(timeout);
+			timeout = setTimeout(later, wait);
+			if (callNow)
+				func.apply(context, args);
+		};
+	};
+
 	var show_loader = function () {
 		console.log("Show_loader");
 		if ($("#img_loader").length == 0)
@@ -62,20 +80,21 @@
 			init_oued_pager();
 		}
 
-		$(window).unbind("scroll");
+		//$(window).unbind("scroll");
 
-		$(window).scroll(function (a, b) {
-			console.log("ZZZ scroling");
-			var diff = Math.abs($("#divPages").offset().top - $(document).scrollTop());
-			if (diff < 1000) {
-				if (!isVisible_loader()) {
-					show_loader();
-					console.log("Suivant => " + Math.random());
-					$("#divPages > a.page_arrow").click();
+		window.addEventListener("scroll", debounce(function (a, b) {
+
+				var diff = Math.abs($("#divPages").offset().top - $(document).scrollTop());
+				console.log("ZZZ scroling diff ", diff);
+				if (diff < 1000) {
+					if (!isVisible_loader()) {
+						show_loader();
+						console.log("Suivant => " + Math.random());
+						$("#divPages > a.page_arrow").click();
+					}
 				}
-			}
-		});
+			}, 300));
 
-	}, 1000);
+	}, 2000);
 
 })(window.jQuery);
