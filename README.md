@@ -1,37 +1,26 @@
-<h1>Ouedkniss.com personnalisé !</h1>
-<h4>Version : 0.1</h4>
-<p>
-Le but de ce projet est de personnaliser le site ouedkniss.com , les modifications rajoutées concernent le désign ainsi que le support Ajax.<br>
-<b>NB</b>  :  nouvelles fonctionalités vont être rajoutées dans le future.
-</p>
-<h3>Changements apportés au site</h3>
-<ul>
-  <li>Suppression des pubs</li>
-  <li>Auto-Charger les pages (Lazy-l<img alt="o" src="https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/o.gif"  />ading) </li>
-</ul>
+# Ouedkniss.com personnalisé !
+#### Version : 1.0.0.1
+Le but de ce projet est de personnaliser le site ouedkniss.com , les modifications rajoutées concernent le désign ainsi que le support Ajax.
+**NB**  :  nouvelles fonctionalités vont être rajoutées dans le future.
 
-<h3>Installation</h3>
-<ol>
-<li>Installer l'extension <a href="https://addons.mozilla.org/fr/firefox/addon/greasemonkey/" >Greasemonkey</a> (firefox) | <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=fr" >Tampermonkey</a> (chrome)</li>
-<li>Redémarrer Firefox/Chrome après avoir installé l'extension</li>
-  <li>
-    Installer les deux scripts :
-    <ul>
-      <li><a href="https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/ouedkniss.css.user.js">ouedkniss-css</a></li>
-      <li><a href="https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/ouedkniss.lazyloading.user.js">ouedkniss-lazyloading</a></li>
-    </ul>
-  </li>
-</ol>
+### Changements apportés au site
+* Fixer la bare menu en haut
+* Suppression des pubs
+* Auto-Charger les pages (Lazy-l<img alt="o" src="https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/o.gif"  />ading)
 
+### Installation
+* Installer l'extension [Greasemonkey](https://addons.mozilla.org/fr/firefox/addon/greasemonkey/) (firefox) | 
+[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (chrome)
+* Redémarrer Firefox/Chrome après avoir installé l'extension
+* Installer les deux scripts :
+* [ouedkniss-css](https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/ouedkniss.css.user.js)
+* [ouedkniss-lazyloading](https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/ouedkniss.lazyloading.user.js)
 
-<hr>
-
-<h2>Quelques Screenshots : </h2>
-<h3>Auto-Chargement des pages (infinite scroll)</h3>
-<img alt="Autoloading" src="http://i.imgur.com/krZP7hy.png" />
-
-<h3>Barre de menu fixée</h3>
-<img alt="Autoloading" src="http://i.imgur.com/V8WuI7a.png" />
+## Quelques Screenshots
+### Auto-Chargement des pages (infinite scroll)
+![Autoloading](http://i.imgur.com/krZP7hy.png)
+### Barre de menu fixée
+![Fixed menu](http://i.imgur.com/V8WuI7a.png)
 
 
 
