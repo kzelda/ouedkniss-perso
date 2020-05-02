@@ -4,7 +4,7 @@
 // @description Affichage css personalisé de ouedkniss.com
 // @include     http://www.ouedkniss.com/*
 // @include     https://www.ouedkniss.com/*
-// @version     1
+// @version     1.0.0.1
 // @grant       none
 // ==/UserScript==
 
