@@ -13,12 +13,15 @@ Le but de ce projet est de personnaliser le site ouedkniss.com , les modificatio
 [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (chrome)
 * Redémarrer Firefox/Chrome après avoir installé l'extension
 * Installer les deux scripts :
-* [ouedkniss-css](https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/ouedkniss.css.user.js)
-* [ouedkniss-lazyloading](https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/ouedkniss.lazyloading.user.js)
+  * [ouedkniss-css](https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/ouedkniss.css.user.js)
+  * [ouedkniss-lazyloading](https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/ouedkniss.lazyloading.user.js)
 
 ## Quelques Screenshots
 ### Auto-Chargement des pages (infinite scroll)
 ![Autoloading](http://i.imgur.com/krZP7hy.png)
+
+<hr/>
+
 ### Barre de menu fixée
 ![Fixed menu](http://i.imgur.com/V8WuI7a.png)
 
