@@ -9,8 +9,8 @@ Le but de ce projet est de personnaliser le site ouedkniss.com , les modificatio
 * Auto-Charger les pages (Lazy-l<img alt="o" src="https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/o.gif"  />ading)
 
 ### Installation
-* Installer l'extension [Greasemonkey](https://addons.mozilla.org/fr/firefox/addon/greasemonkey/) (firefox) | 
-[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (chrome)
+* Installer l'extension Tampermonkey [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/) | 
+[Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 * Redémarrer Firefox/Chrome après avoir installé l'extension
 * Installer les deux scripts :
   * [ouedkniss-css](https://raw.githubusercontent.com/kzelda/ouedkniss-perso/master/ouedkniss.css.user.js)
