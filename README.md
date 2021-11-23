@@ -4,7 +4,7 @@ Le but de ce projet est de personnaliser le site ouedkniss.com ,
 les modifications rajoutées concernent le design
 
 ### Changements apportés au site
-- [x] Fixer le **header** menu en haut
+- [x] Fixer le **header** en haut
 - [x] Suppression des pubs
 
 ### Installation
