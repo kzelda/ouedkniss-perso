@@ -44,8 +44,8 @@ style.textContent = `
     background-color: #2e3031 !important;
 }
 
-.v-btn--outlined .v-btn__content .v-icon, .v-btn--round .v-btn__content .v-icon {
-    color: #d5d1d1 !important;
+.v-toolbar__items button, .v-btn--outlined .v-btn__content .v-icon, .v-btn--round .v-btn__content .v-icon {
+    color: #eee !important;
 }
 
 .v-toolbar .v-input {
