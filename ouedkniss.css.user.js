@@ -4,7 +4,7 @@
 // @description Affichage css personalisé de ouedkniss.com
 // @include     http://www.ouedkniss.com/*
 // @include     https://www.ouedkniss.com/*
-// @version     22.0.0
+// @version     22.12.12
 // @grant       none
 // ==/UserScript==
 
@@ -37,6 +37,14 @@ style.textContent = `
 #app header {
   position: fixed !important;
   width: 100%;
+}
+
+.v-toolbar__content {
+    background-color: #2e3031 !important;
+}
+
+.v-btn--outlined .v-btn__content .v-icon, .v-btn--round .v-btn__content .v-icon {
+    color: #d5d1d1 !important;
 }
 `;
 
