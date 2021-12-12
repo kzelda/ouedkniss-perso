@@ -17,7 +17,8 @@ les modifications rajoutées concernent le design
 
 ### Screenshots
 - Fixed Dark toolbar
-![image](https://user-images.githubusercontent.com/592467/145708640-84922e1a-4854-4bf9-8ae7-e6c091c5f511.png)
+![image](https://user-images.githubusercontent.com/592467/145708828-787c7a3d-ef97-43c2-9e1a-82bb99e0a100.png)
+
 
 
   
