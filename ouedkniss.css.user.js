@@ -37,6 +37,7 @@ style.textContent = `
 #app header {
   position: fixed !important;
   width: 100%;
+  background-color: #2e3031 !important;
 }
 
 .v-toolbar__content {
@@ -45,6 +46,10 @@ style.textContent = `
 
 .v-btn--outlined .v-btn__content .v-icon, .v-btn--round .v-btn__content .v-icon {
     color: #d5d1d1 !important;
+}
+
+.v-toolbar .v-input {
+    background-color: #eee;
 }
 `;
 
