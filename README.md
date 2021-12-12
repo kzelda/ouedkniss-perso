@@ -16,8 +16,9 @@ les modifications rajoutées concernent le design
 
 
 ### Screenshots
-> Fixed header
-> ![image](https://user-images.githubusercontent.com/592467/143000273-77e5512b-7620-4ac2-a565-422d93ebe6a5.png)
+- Fixed Dark toolbar
+![image](https://user-images.githubusercontent.com/592467/145708640-84922e1a-4854-4bf9-8ae7-e6c091c5f511.png)
+
 
   
 
