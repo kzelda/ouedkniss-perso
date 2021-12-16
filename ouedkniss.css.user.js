@@ -34,7 +34,7 @@ function debounce(func, wait, immediate) {
 var style = document.createElement("style");
 
 style.textContent = `
-#app header {
+#app > header {
   position: fixed !important;
   width: 100%;
   background-color: #2e3031 !important;
