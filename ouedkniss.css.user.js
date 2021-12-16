@@ -34,10 +34,11 @@ function debounce(func, wait, immediate) {
 var style = document.createElement("style");
 
 style.textContent = `
-#app > header {
+#app .v-application--wrap > header {
   position: fixed !important;
   width: 100%;
   background-color: #2e3031 !important;
+  border-bottom: solid 1px #2e3031;
 }
 
 .v-toolbar__content {
