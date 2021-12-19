@@ -41,6 +41,10 @@ style.textContent = `
   border-bottom: solid 1px #2e3031;
 }
 
+#app .v-application--wrap > header input {
+  color: #000;
+}
+
 .v-toolbar__content {
     background-color: #2e3031 !important;
 }
